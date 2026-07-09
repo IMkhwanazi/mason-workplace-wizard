@@ -20,7 +20,7 @@ import {
   PromptInputSubmit,
 } from "@/components/ai-elements/prompt-input";
 import { Shimmer } from "@/components/ai-elements/shimmer";
-import { Button } from "@/components/ai-elements/../ui/button";
+import { Button } from "@/components/ui/button";
 import { ResponsibleAINotice } from "@/components/responsible-ai";
 import { Copy, RefreshCw, Trash2, Bot } from "lucide-react";
 import { toast } from "sonner";
@@ -198,7 +198,7 @@ function ChatPage() {
               <MessageContent>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Bot className="h-4 w-4 animate-pulse text-primary" />
-                  <TextShimmer>Mason is thinking…</TextShimmer>
+                  <Shimmer>Mason is thinking…</Shimmer>
                 </div>
               </MessageContent>
             </Message>
