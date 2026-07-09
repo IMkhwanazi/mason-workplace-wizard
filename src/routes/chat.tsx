@@ -19,7 +19,7 @@ import {
   PromptInputFooter,
   PromptInputSubmit,
 } from "@/components/ai-elements/prompt-input";
-import { TextShimmer } from "@/components/ai-elements/shimmer";
+import { Shimmer } from "@/components/ai-elements/shimmer";
 import { Button } from "@/components/ai-elements/../ui/button";
 import { ResponsibleAINotice } from "@/components/responsible-ai";
 import { Copy, RefreshCw, Trash2, Bot } from "lucide-react";
