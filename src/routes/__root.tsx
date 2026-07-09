@@ -84,21 +84,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Mason — AI Workplace Assistant" },
+      { title: "Dashboard — Mason" },
       {
         name: "description",
         content:
-          "Mason is your AI workplace assistant. Generate professional emails, plan your day, and get instant answers — all in one premium workspace.",
+          "Your AI workplace overview: productivity, activity, and quick actions.",
       },
       { name: "author", content: "Mason" },
-      { property: "og:title", content: "Mason — AI Workplace Assistant" },
+      { property: "og:title", content: "Dashboard — Mason" },
       {
         property: "og:description",
         content:
-          "Generate professional emails, plan your schedule, and get instant AI assistance in one premium workspace.",
+          "Your AI workplace overview: productivity, activity, and quick actions.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Dashboard — Mason" },
+      { name: "twitter:description", content: "Your AI workplace overview: productivity, activity, and quick actions." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ea98c63-084c-4fca-b3e0-7a749c59afa8/id-preview-12eb2e81--b365b82a-f288-4242-9438-fe17545b4e1b.lovable.app-1783602424905.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ea98c63-084c-4fca-b3e0-7a749c59afa8/id-preview-12eb2e81--b365b82a-f288-4242-9438-fe17545b4e1b.lovable.app-1783602424905.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
